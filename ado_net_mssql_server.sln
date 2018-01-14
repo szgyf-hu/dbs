@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ado_net_mssql_server", "ado_net_mssql_server\ado_net_mssql_server.csproj", "{DE555E2D-32AA-438A-B598-6E6291DB6672}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_ado_net_mssql_winforms", "ado_net_mssql_server\2_ado_net_mssql_winforms.csproj", "{DE555E2D-32AA-438A-B598-6E6291DB6672}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_ado_net_mssql_console", "ado_net_mssql_console\1_ado_net_mssql_console.csproj", "{1CDFFA3F-4604-4906-9D15-3DC0B1DCA5D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sqlite_console", "sqlite_console\sqlite_console.csproj", "{95343D6E-28CD-473E-8F8D-5EA86A63F4E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{DE555E2D-32AA-438A-B598-6E6291DB6672}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE555E2D-32AA-438A-B598-6E6291DB6672}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE555E2D-32AA-438A-B598-6E6291DB6672}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CDFFA3F-4604-4906-9D15-3DC0B1DCA5D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CDFFA3F-4604-4906-9D15-3DC0B1DCA5D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CDFFA3F-4604-4906-9D15-3DC0B1DCA5D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CDFFA3F-4604-4906-9D15-3DC0B1DCA5D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95343D6E-28CD-473E-8F8D-5EA86A63F4E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95343D6E-28CD-473E-8F8D-5EA86A63F4E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95343D6E-28CD-473E-8F8D-5EA86A63F4E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95343D6E-28CD-473E-8F8D-5EA86A63F4E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
